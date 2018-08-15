@@ -15,7 +15,7 @@ def long_planeteer_calls(array)
   new_array = array.select do |calls|
     calls.size > 4
   end
-  
+  new_array.size > 0 ? true:false 
 end
 
 def find_the_cheese# code an argument here
