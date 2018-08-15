@@ -22,7 +22,8 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   new_array = cheese_types.collect do |cheese|
     if array.include?(cheese) 
-      
+      cheese
+    end 
   end
   new_array.size > 0 ? new_array[0]:nil 
 end
